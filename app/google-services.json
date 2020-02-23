@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536401318106",
+    "firebase_url": "https://alivio-b0e1e.firebaseio.com",
+    "project_id": "alivio-b0e1e",
+    "storage_bucket": "alivio-b0e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536401318106:android:3a667c9154d398c5bed5e3",
+        "android_client_info": {
+          "package_name": "com.cyboss.alivio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536401318106-pfuci0vosu8ohastibmppcngcq15g80n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyboss.alivio",
+            "certificate_hash": "5680cc552de10d488d355cbe7648856b43b8792d"
+          }
+        },
+        {
+          "client_id": "536401318106-o4ibfvt33uqn60hlt3t8bfmvjd2e17c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDohu_dzKo4_0ccVDwfCIpNA7v21J26jwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536401318106-o4ibfvt33uqn60hlt3t8bfmvjd2e17c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/lgn">
+    <TableRow
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbr1"
+        android:gravity="center"
+        android:layout_marginBottom="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emaillogin"
+            android:hint="Enter email"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbr2"
+        android:gravity="center"
+        android:layout_marginBottom="35dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pwdlogin"
+            android:hint="Enter Password"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbr3"
+        android:gravity="center"
+        android:layout_marginBottom="15dp">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/login"
+            android:background="@drawable/round_button"
+            android:text="login"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbr4"
+        android:gravity="center"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:text="Create new account/sign up"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbr5"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgot"
+            android:text="Forgot password?"/>
+    </TableRow>
+</LinearLayout>

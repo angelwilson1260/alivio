@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admins"
+    tools:context=".AdminActivity"
+    android:gravity="center">
+    <Button
+        android:background="@drawable/round_button"
+        android:id="@+id/Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_margin="30dp"/>
+    <Button
+        android:layout_margin="30dp"
+        android:background="@drawable/round_button"
+        android:id="@+id/AddContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contacts" />
+    <Button
+        android:layout_margin="30dp"
+        android:background="@drawable/round_button"
+        android:id="@+id/Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts" />
+</LinearLayout>
